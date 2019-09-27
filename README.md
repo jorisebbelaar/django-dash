@@ -1,12 +1,11 @@
 # Python Django + Dash
 
 Setting up a local django project with dash apps embedded in html.
-https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 ## Installation
 
 It's reccomended to use virtual environment to setup a venv first.
-
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 ```bash
 #install dash and create project
 pip install Django
