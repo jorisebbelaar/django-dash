@@ -1,6 +1,7 @@
 # Python Django + Dash
 
 Setting up a local django project with dash apps embedded in html.
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 ## Installation
 
