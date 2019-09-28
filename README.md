@@ -86,7 +86,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = DjangoDash('example_1')
 
 app.layout = html.Div(children=[
-    html.H1(children='Hello Dash from Je moeder'),
+    html.H1(children='Hello Dash from Peter'),
 
     html.Div(children='''
         Dash: A web application framework for Python.
