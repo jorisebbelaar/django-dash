@@ -33,7 +33,7 @@ from django.urls import path, include
 
 from django.views.generic import TemplateView
 
-import dashboard.dash_example
+#import dashboard.dash_example
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html'), name='home'),
@@ -107,6 +107,11 @@ app.layout = html.Div(children=[
 ])
 
 ```
+Now we have to include this file in the '''urls.py'''. Head to the '''urls.py''' file and uncomment the following line:
+''' python
+import dashboard.dash_example
+'''
+
 Finally add the following code to the index.html file.
 ``` 
 {% load plotly_dash %}
